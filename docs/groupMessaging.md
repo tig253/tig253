@@ -11,6 +11,7 @@
 content-type：application/json
 
 **参数：**
+
 |参数名|必选|类型|说明|
 |:---|:---|:---|:---|
 |account|是|string|账户|
@@ -27,8 +28,9 @@ content-type：application/json
 }<br/>
 
 **返回参数说明 **
+
 |参数名|类型|说明|
-|-|:-:|-:|
+|:---|:---|:---|
 |code|string|返回码|
 |message|string|消息|
 |data|object|数据包|
