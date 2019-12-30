@@ -27,7 +27,7 @@ content-type：application/json
     `"mobile"`:"8613011111111,8613022222222,8613033333333"<br/>
 }<br/>
 
-**返回参数说明 **
+**返回参数说明**
 
 |参数名|类型|说明|
 |:---|:---|:---|
@@ -45,6 +45,8 @@ content-type：application/json
     }<br/>
 }<br/>
 单发返回单个消息id
+<br/>
+<br/>
 
 **返回示例(群发)**
 {<br/>
@@ -55,7 +57,8 @@ content-type：application/json
     }<br/>
 }<br/>
 群发返回批次消息id
-
+<br/>
+<br/>
 **返回示例(发送错误)**
 
 {<br/>
