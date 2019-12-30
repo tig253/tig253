@@ -28,7 +28,7 @@ content-type：application/json
 
 **返回参数说明 **
 |参数名|类型|说明|
-|:---|:---|:---|
+|-|:-:|-:|
 |code|string|返回码|
 |message|string|消息|
 |data|object|数据包|
