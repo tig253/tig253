@@ -12,7 +12,7 @@
 ### 3.2 回调示例
 
 
-http://pushUrl?receiver=admin&pswd=12345&msgid=12345&reportTime=1012241002&mobile=13900210021<br/>&status=DELIVRD¬ifyTime=180828114243&batchSeq=I0123456_1808281142_2188000<br/>
+http://pushUrl?receiver=admin&pswd=12345&msgid=12345&reportTime=1012241002&mobile=13900210021&status=DELIVRD¬ifyTime=180828114243&batchSeq=I0123456_1808281142_2188000
 
 参数说明如下：
 
@@ -25,6 +25,8 @@ http://pushUrl?receiver=admin&pswd=12345&msgid=12345&reportTime=1012241002&mobil
 `status`：状态报告状态码<br/>
 `betchSeq`：短信批次号。<br/>
 
+```
 注：
 1.成功接收请响应字符串:OK
 2.status 为状态报告状态码，可参照状态报告状态码对比
+```
