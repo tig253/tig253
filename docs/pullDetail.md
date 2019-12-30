@@ -23,23 +23,23 @@
  
  & 该响应为提交响应，发送到手机是否成功请获取状态报告确认
  ```
-  {<br/>
-  "code": 0,<br/>
-  "error": "",<br/>
-  "result": [<br/>
-    {<br/>
-      "destcode": "10690141880",<br/>
-      "moTime": "1534732783355",<br/>
-      "mobile": "18037170702",<br/>
-      "msg": "test message"<br/>
-    },<br/>
-    {<br/>
-      "destcode": "10690141881",<br/>
-      "moTime": "1534732787359",<br/>
-      "mobile": "18037170702",<br/>
-      "msg": "test message content"<br/>
-    }<br/>
-  ]<br/>
-}<br/>
+  {
+  "code": 0,
+  "error": "",
+  "result": [
+    {
+      "destcode": "10690141880",
+      "moTime": "1534732783355",
+      "mobile": "18037170702",
+      "msg": "test message"
+    },
+    {
+      "destcode": "10690141881",
+      "moTime": "1534732787359",
+      "mobile": "18037170702",
+      "msg": "test message content"
+    }
+  ]
+}
 ```
 注：code为响应状态码，可参照提交响应状态码对比
