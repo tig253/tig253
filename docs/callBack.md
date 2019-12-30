@@ -11,12 +11,12 @@
 
 ### 3.2 回调示例
 
-```
+
 http://pushUrl?receiver=admin&pswd=12345&msgid=12345&reportTime=1012241002&mobile=13900210021&status=DELIVRD¬ifyTime=180828114243&batchSeq=I0123456_1808281142_2188000
-```
+
 
 参数说明如下：
-```
+
 `receiver`：接收状态报告验证的用户名（不是账户名），是按照用户要求配置的名称，默认为空<br/>
 `pswd`：接收状态报告验证的密码，默认为空<br/>
 `msgid`：提交短信时平台返回的msgid<br/>
@@ -25,7 +25,7 @@ http://pushUrl?receiver=admin&pswd=12345&msgid=12345&reportTime=1012241002&mobil
 `mobile`：提交短信时的手机号码<br/>
 `status`：状态报告状态码<br/>
 `betchSeq`：短信批次号。<br/>
-```
+
 
 
 ```
