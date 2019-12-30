@@ -59,6 +59,7 @@ content-type：application/json
 群发返回批次消息id
 <br/>
 <br/>
+
 **返回示例(发送错误)**
 
 {<br/>
