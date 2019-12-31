@@ -37,7 +37,7 @@ content-type：application/json
 |messageId|string|消息id|
 |errorPhone|array|群发错误手机号|
 
-**返回示例(单发)**
+**返回示例(单发)**<br/>
  {<br/>
     `"code"`: "0",<br/>
     `"message"`: "成功",<br/>
@@ -49,7 +49,7 @@ content-type：application/json
 <br/>
 <br/>
 
-**返回示例(群发)**
+**返回示例(群发)**<br/>
 {<br/>
     `"code"`: "0",<br/>
     `"message"`: "成功",<br/>
