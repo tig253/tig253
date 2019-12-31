@@ -35,6 +35,7 @@ content-type：application/json
 |message|string|消息|
 |data|object|数据包|
 |messageId|string|消息id|
+|errorPhone|array|群发错误手机号|
 
 **返回示例(单发)**
  {<br/>
@@ -53,7 +54,8 @@ content-type：application/json
     `"code"`: "0",<br/>
     `"message"`: "成功",<br/>
     `"data"`: {<br/>
-        `"messageId"`: "I6428061_1712261459_40"<br/>
+        `"messageId"`: "I6428061_1712261459_40",<br/>
+         `"errorPhone"`: []<br/>
     }<br/>
 }<br/>
 群发返回批次消息id
